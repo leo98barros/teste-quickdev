@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Flugg\Responder\ResponderServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -228,6 +229,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        'Responder' => Flugg\Responder\Facades\Responder::class,
+        'Transformation' => Flugg\Responder\Facades\Transformation::class,
     ],
 
 ];
